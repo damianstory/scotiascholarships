@@ -154,11 +154,13 @@ export default function HomePage() {
   };
   return (
     <main className="min-h-screen bg-white" onKeyDown={handleKeyDown} tabIndex={-1}>
-      <div className="container mx-auto px-4 md:px-8 lg:px-20 py-20 max-w-7xl">
+      <div className="container mx-auto px-4 md:px-8 lg:px-20 py-10 max-w-7xl">
         <header className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#333333] mb-4">
-            myBlueprint Scotiabank 2025 Scholarships
-          </h1>
+          <img 
+            src="https://i.imgur.com/DpZBFXW.png" 
+            alt="myBlueprint Scotiabank 2025 Scholarships" 
+            className="mx-auto mb-6 max-w-full h-auto w-auto max-h-10 md:max-h-12 lg:max-h-14"
+          />
           <p className="text-xl md:text-2xl text-black">
             Celebrating the 2025 <span className="text-[#EC111A]">Scotiabank</span> scholarship recipients 🎉
           </p>

@@ -4,19 +4,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Development Commands
 
-This is a Turborepo monorepo using Bun as the package manager. Core commands:
+This is a Turborepo monorepo for the Scotiabank Scholarship Winners Showcase. Package manager is specified as Bun but npm is functional for development:
 
-- `bun dev` - Start the main app in development mode (runs on port 3000)
-- `bun build` - Build all packages and apps 
-- `turbo build` - Alternative build command using Turbo directly
-- `bun lint` - Run Biome linter across all workspaces
-- `bun format` - Format code using Biome
-- `bun typecheck` - Run TypeScript type checking across all workspaces
-- `bun clean` - Remove node_modules and build artifacts
-- `bun clean:workspaces` - Clean all workspace build outputs
+- `npm run dev` or `bun dev` - Start the main app in development mode (targets @v1/app, runs on port 3000)
+- `npm run build` or `bun build` - Build all packages and apps using Turbo
+- `npm run lint` or `bun lint` - Run Biome linter across all workspaces
+- `npm run format` or `bun format` - Format code using Biome
+- `npm run typecheck` or `bun typecheck` - Run TypeScript type checking across all workspaces
+- `npm run clean` or `bun clean` - Remove node_modules using git clean
+- `npm run clean:workspaces` or `bun clean:workspaces` - Clean all workspace build outputs
 
-Individual app commands:
-- App-specific commands can be run with `turbo dev --filter=@v1/app` or by navigating to the specific workspace
+Development server alternatives:
+- `npx next dev -p 3001` - Start Next.js dev server directly on alternate port
+- If port 3000 is in use, try ports 3001, 3002, etc.
 
 ## Architecture Overview
 
@@ -38,16 +38,18 @@ This is a Next.js 14 application with the following structure:
 
 ### Application Details
 The main app (`apps/app/`) is a scholarship winners showcase featuring:
-- Landing page with circular testimonials component
-- Student testimonial data with quotes, images, and scholarship themes
-- Responsive design optimized for mobile-first
-- Clean, professional styling with Scotiabank branding colors
+- Single-page application showcasing 16 Scotiabank scholarship recipients
+- 2-column responsive layout: student photos on left, testimonial text on right
+- Student data includes quotes, names, institutions ("Headed to: [institution]"), and scholarship themes
+- External navigation controls positioned above footer (arrows + dots)
+- Scotiabank red (#EC111A) branding for navigation and theme text
 
 ### Component Architecture
-- UI components are shared through `@v1/ui` package
-- Components export both the component and TypeScript types
-- Uses class-variance-authority for component variants
-- Circular testimonials component supports theming and autoplay
+- UI components shared through `@v1/ui` package with proper exports in package.json
+- `CircularTestimonials` component is controlled (accepts currentIndex prop)
+- Navigation state managed at page level with autoplay functionality
+- Components use `@v1/ui/[component]` import paths
+- Student testimonial data embedded directly in page component
 
 ## Code Style and Conventions
 
@@ -60,9 +62,17 @@ Follow the established patterns from `.cursorrules`:
 - Mobile-first responsive design with Tailwind CSS
 
 ## Package Management
-- Uses Bun 1.1.26 as package manager
-- Workspaces configured for `packages/*`, `apps/*`, `tooling/*`
-- Dependencies are managed at workspace level where appropriate
+- Project configured for Bun 1.1.26 but npm works for development
+- Workspaces: `packages/ui` (shared components), `apps/app` (main application), `tooling/typescript` (configs)
+- Import UI components using `@v1/ui/[component]` paths
+- Use `cn` utility from `@v1/ui/cn` for conditional styling
 
 ## Build and Lint Requirements
-Always run `bun lint` and `bun typecheck` after making changes to ensure code quality and type safety.
+Always run `npm run lint` and `npm run typecheck` after making changes. Build with `npm run build` to verify compilation.
+
+## Key Application Features
+- Responsive testimonials with 2-column desktop layout optimized for laptop viewing
+- Navigation controls separate from testimonial content to prevent layout shifts
+- Special handling for student "Nada" (no quotes around testimonial text)
+- Autoplay functionality with pause on hover
+- Keyboard navigation support (arrow keys)
