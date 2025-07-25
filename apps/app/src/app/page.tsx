@@ -165,7 +165,7 @@ export default function HomePage() {
       <div className="fixed inset-0 bg-black/20 pointer-events-none" aria-hidden="true" />
       
       <div className="container mx-auto px-4 md:px-8 lg:px-20 py-10 max-w-7xl relative z-10">
-        <header className="text-center mb-16">
+        <header className="text-center mb-4">
           <img 
             src="https://i.imgur.com/DpZBFXW.png" 
             alt="myBlueprint Scotiabank 2025 Scholarships" 
@@ -177,7 +177,7 @@ export default function HomePage() {
         </header>
 
         <section 
-          className="mb-20"
+          className="mb-4"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
           onKeyDown={handleKeyDown}
@@ -198,7 +198,7 @@ export default function HomePage() {
         </section>
 
         {/* Navigation Controls */}
-        <div className="flex items-center justify-center mb-12 space-x-6">
+        <div className="flex items-center justify-center mb-9 space-x-6">
           <button
             onClick={handlePrevious}
             className="p-3 rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 hover:bg-[#333333]"
