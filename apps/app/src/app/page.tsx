@@ -153,7 +153,16 @@ export default function HomePage() {
     }
   };
   return (
-    <main className="min-h-screen bg-white" onKeyDown={handleKeyDown} tabIndex={-1}>
+    <main 
+      className="min-h-screen bg-no-repeat bg-fixed" 
+      style={{ 
+        backgroundImage: 'url(https://i.imgur.com/f5R4g2h.jpeg)',
+        backgroundSize: '120%',
+        backgroundPosition: 'center top'
+      }}
+      onKeyDown={handleKeyDown}
+      tabIndex={-1}
+    >
       <div className="container mx-auto px-4 md:px-8 lg:px-20 py-10 max-w-7xl">
         <header className="text-center mb-16">
           <img 
@@ -161,8 +170,8 @@ export default function HomePage() {
             alt="myBlueprint Scotiabank 2025 Scholarships" 
             className="mx-auto mb-6 max-w-full h-auto w-auto max-h-10 md:max-h-12 lg:max-h-14"
           />
-          <p className="text-xl md:text-2xl text-black">
-            Celebrating the 2025 <span className="text-[#EC111A]">Scotiabank</span> scholarship recipients 🎉
+          <p className="text-xl md:text-2xl text-white">
+            Celebrating the 2025 <span className="text-[#EC111A] font-bold">Scotiabank</span> scholarship recipients 🎉
           </p>
         </header>
 
@@ -177,9 +186,9 @@ export default function HomePage() {
             testimonials={recipients}
             currentIndex={currentIndex}
             colors={{
-              name: "#333333",
-              designation: "#6b7280",
-              testimony: "#4b5563",
+              name: "#FFFFFF",
+              designation: "#FFFFFF",
+              testimony: "#FFFFFF",
               arrowBackground: "#EC111A",
               arrowForeground: "#FFFFFF",
               arrowHoverBackground: "#333333",
@@ -231,7 +240,7 @@ export default function HomePage() {
         </div>
 
         <footer className="text-center max-w-3xl mx-auto">
-          <p className="text-base md:text-lg text-[#6b7280] leading-relaxed">
+          <p className="text-base md:text-lg text-white leading-relaxed">
             Thank you, Scotiabank, for your continued partnership and commitment to empowering 
             the next generation of Canadian leaders. Together, we're making post-secondary 
             education more accessible and helping students achieve their dreams.

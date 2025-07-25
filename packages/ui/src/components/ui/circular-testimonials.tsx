@@ -121,7 +121,7 @@ export default function CircularTestimonials({
                   {shouldShowViewMore && (
                     <button
                       onClick={() => setIsExpanded(!isExpanded)}
-                      className="inline text-sm md:text-base font-medium hover:underline transition-colors"
+                      className="inline text-sm md:text-base font-bold hover:underline transition-colors"
                       style={{ color: colors.arrowBackground }}
                       type="button"
                     >
@@ -146,7 +146,7 @@ export default function CircularTestimonials({
             </p>
             {testimonials[currentIndex].theme && (
               <p
-                className="text-base md:text-lg mt-2 font-medium"
+                className="text-base md:text-lg mt-2 font-bold"
                 style={{ color: colors.arrowBackground }}
               >
                 Scholarship Theme: {testimonials[currentIndex].theme}
