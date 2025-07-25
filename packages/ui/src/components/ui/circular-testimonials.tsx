@@ -76,7 +76,7 @@ export default function CircularTestimonials({
 
   return (
     <div
-      className="relative flex items-center justify-center min-h-[500px] w-full overflow-hidden"
+      className="relative flex items-center justify-center min-h-[600px] md:min-h-[650px] lg:min-h-[700px] w-full overflow-hidden"
       role="region"
       aria-label="Student testimonials carousel"
     >
@@ -101,16 +101,16 @@ export default function CircularTestimonials({
               />
             </div>
           </div>
-          <div className="flex flex-col text-center md:text-left flex-1 h-[400px] md:h-[450px] lg:h-[500px] overflow-y-auto">
-            {testimonials[currentIndex].name === "Nada" ? (
-              <p
-                className="text-sm md:text-base lg:text-lg mb-6 leading-relaxed"
-                style={{ color: colors.testimony }}
-              >
-                {highlightScotiabank(displayQuote)}
-              </p>
-            ) : (
-              <div className="mb-6">
+          <div className="flex flex-col text-center md:text-left flex-1">
+            <div className="min-h-[280px] md:min-h-[320px] lg:min-h-[360px] flex flex-col justify-center">
+              {testimonials[currentIndex].name === "Nada" ? (
+                <p
+                  className="text-sm md:text-base lg:text-lg leading-relaxed"
+                  style={{ color: colors.testimony }}
+                >
+                  {highlightScotiabank(displayQuote)}
+                </p>
+              ) : (
                 <blockquote
                   className="text-sm md:text-base lg:text-lg leading-relaxed"
                   style={{ color: colors.testimony }}
@@ -130,28 +130,30 @@ export default function CircularTestimonials({
                   )}
                   {!shouldShowViewMore || isExpanded || (shouldShowViewMore && !isExpanded) ? '"' : ''}
                 </blockquote>
-              </div>
-            )}
-            <h3
-              className="text-xl md:text-2xl font-bold mb-2"
-              style={{ color: colors.name }}
-            >
-              {testimonials[currentIndex].name}
-            </h3>
-            <p
-              className="text-lg md:text-xl"
-              style={{ color: colors.designation }}
-            >
-              Headed to: {testimonials[currentIndex].designation}
-            </p>
-            {testimonials[currentIndex].theme && (
-              <p
-                className="text-base md:text-lg mt-2 font-bold"
-                style={{ color: colors.arrowBackground }}
+              )}
+            </div>
+            <div className="mt-6">
+              <h3
+                className="text-xl md:text-2xl font-bold mb-2"
+                style={{ color: colors.name }}
               >
-                Scholarship Theme: {testimonials[currentIndex].theme}
+                {testimonials[currentIndex].name}
+              </h3>
+              <p
+                className="text-lg md:text-xl"
+                style={{ color: colors.designation }}
+              >
+                Headed to: {testimonials[currentIndex].designation}
               </p>
-            )}
+              {testimonials[currentIndex].theme && (
+                <p
+                  className="text-base md:text-lg mt-2 font-bold"
+                  style={{ color: colors.arrowBackground }}
+                >
+                  Scholarship Theme: {testimonials[currentIndex].theme}
+                </p>
+              )}
+            </div>
           </div>
         </motion.div>
       </AnimatePresence>
