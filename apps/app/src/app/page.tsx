@@ -1,7 +1,7 @@
 "use client";
 
 import CircularTestimonials from "@v1/ui/circular-testimonials";
-import type { Testimonial, TestimonialsProps } from "@v1/ui/circular-testimonials";
+import type { Testimonial } from "@v1/ui/circular-testimonials";
 import { useEffect, useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
@@ -154,16 +154,17 @@ export default function HomePage() {
   };
   return (
     <main 
-      className="min-h-screen bg-no-repeat bg-fixed" 
+      className="min-h-screen bg-cover bg-center bg-fixed bg-[#1a1a3e]" 
       style={{ 
         backgroundImage: 'url(https://i.imgur.com/f5R4g2h.jpeg)',
-        backgroundSize: '120%',
-        backgroundPosition: 'center top'
       }}
       onKeyDown={handleKeyDown}
       tabIndex={-1}
     >
-      <div className="container mx-auto px-4 md:px-8 lg:px-20 py-10 max-w-7xl">
+      {/* Dark overlay for consistent text readability */}
+      <div className="fixed inset-0 bg-black/20 pointer-events-none" aria-hidden="true" />
+      
+      <div className="container mx-auto px-4 md:px-8 lg:px-20 py-10 max-w-7xl relative z-10">
         <header className="text-center mb-16">
           <img 
             src="https://i.imgur.com/DpZBFXW.png" 
