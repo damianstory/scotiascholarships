@@ -154,7 +154,7 @@ export default function HomePage() {
   };
   return (
     <main 
-      className="min-h-screen bg-cover bg-center bg-fixed bg-[#1a1a3e]" 
+      className="min-h-screen bg-cover bg-center bg-fixed bg-[#0f172a]" 
       style={{ 
         backgroundImage: 'url(https://i.imgur.com/f5R4g2h.jpeg)',
       }}

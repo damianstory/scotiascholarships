@@ -104,14 +104,14 @@ export default function CircularTestimonials({
           <div className="flex flex-col text-center md:text-left flex-1">
             {testimonials[currentIndex].name === "Nada" ? (
               <p
-                className="text-sm md:text-base lg:text-lg mb-6 leading-relaxed"
+                className="text-sm md:text-base lg:text-lg mb-16 leading-relaxed"
                 style={{ color: colors.testimony }}
               >
                 {testimonials[currentIndex].quote}
               </p>
             ) : (
               <blockquote
-                className="text-sm md:text-base lg:text-lg mb-6 leading-relaxed"
+                className="text-sm md:text-base lg:text-lg mb-16 leading-relaxed"
                 style={{ color: colors.testimony }}
               >
                 "{testimonials[currentIndex].quote}"
