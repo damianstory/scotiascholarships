@@ -7,6 +7,13 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const recipients: Testimonial[] = [
   {
+    quote: "Receiving the Scotiabank myBlueprint STEM Scholarship is both an honour and a stepping stone for my post-secondary endeavours. More than just funding, this scholarship affirms my passion for STEM and recognizes the hard work I've put into robotics projects, hackathons, and community leadership. It also connects me to a wider network of students and professionals who are equally driven to make a difference, which opens up opportunities to learn from mentors and collaborate with like-minded individuals. This recognition strengthens my confidence and motivates me to keep exploring, and creating. Long-term, I aspire to become a robotics engineer, focused on using technology to solve real-world problems, especially in education and healthcare. This award is a reminder that my goals are within reach and that I have support along the way. I'm truly grateful for this opportunity and excited for what's to come.",
+    name: "Rishi",
+    designation: "Western University",
+    theme: "STEM",
+    src: "https://i.imgur.com/QlcED5i.png"
+  },
+  {
     quote: "Receiving the Scotiabank Financial Wellness Scholarship means more than financial support—it's a meaningful encouragement of the hard work and intention I've poured into my education and future planning. One of my goals is to graduate debt-free from university while developing healthy financial habits. This scholarship is a major step toward achieving that goal, easing the financial burden of post-secondary studies and allowing me to focus more on learning, growing, and contributing to my community. With the help of this scholarship, I have gained flexibility, and I am committed to using this support responsibly. I can better prioritize my academics, pursue meaningful part-time work, and manage my budget wisely for any future academic or unexpected expenses. Thank you so much to Scotiabank and myBlueprint for making this possible!",
     name: "Fengxiao (Aki)",
     designation: "Langara College, BC",
@@ -33,13 +40,6 @@ const recipients: Testimonial[] = [
     designation: "McGill, QC",
     theme: "Financial Wellness",
     src: "https://i.imgur.com/hLYcRDx.jpeg"
-  },
-  {
-    quote: "Receiving the Scotiabank myBlueprint STEM Scholarship is both an honour and a stepping stone for my post-secondary endeavours. More than just funding, this scholarship affirms my passion for STEM and recognizes the hard work I've put into robotics projects, hackathons, and community leadership. It also connects me to a wider network of students and professionals who are equally driven to make a difference, which opens up opportunities to learn from mentors and collaborate with like-minded individuals. This recognition strengthens my confidence and motivates me to keep exploring, and creating. Long-term, I aspire to become a robotics engineer, focused on using technology to solve real-world problems, especially in education and healthcare. This award is a reminder that my goals are within reach and that I have support along the way. I'm truly grateful for this opportunity and excited for what's to come.",
-    name: "Rishi",
-    designation: "Western University",
-    theme: "STEM",
-    src: "https://i.imgur.com/QlcED5i.png"
   },
   {
     quote: "With all of the talented students across our region, I am very humbled to be chosen as the recipient of the Scotiabank STEM Scholarship for Atlantic/Quebec. It is a tremendous honour and a major highlight of my academic career to date. Looking forward, this scholarship provides me increased confidence to seek out opportunities to become an early adopter of emerging technologies and learn how I can embrace them in my business studies and future career aspirations. In ten years, perhaps I will look back at this scholarship as being a pivotal influence that helped lead me to pursue a technology career or become a technology founder. In addition, the financial support provided by this scholarship is very important and appreciated as I work to pay for my undergraduate degree and future post secondary studies. Thank you so much to Scotiabank for supporting me to pursue the next chapter of my life long learning with excitement, curiosity, and confidence.",

@@ -13,6 +13,7 @@ This is a Turborepo monorepo for the Scotiabank Scholarship Winners Showcase. Pa
 - `npm run typecheck` or `bun typecheck` - Run TypeScript type checking across all workspaces
 - `npm run clean` or `bun clean` - Remove node_modules using git clean
 - `npm run clean:workspaces` or `bun clean:workspaces` - Clean all workspace build outputs
+- `npm start` or `bun start` - Start the production build
 
 Development server alternatives:
 - `npx next dev -p 3001` - Start Next.js dev server directly on alternate port
@@ -43,13 +44,21 @@ The main app (`apps/app/`) is a scholarship winners showcase featuring:
 - Student data includes quotes, names, institutions ("Headed to: [institution]"), and scholarship themes
 - External navigation controls positioned above footer (arrows + dots)
 - Scotiabank red (#EC111A) branding for navigation and theme text
+- Dark navy blue (#0f172a) fallback background with 20% black overlay for text readability
 
 ### Component Architecture
-- UI components shared through `@v1/ui` package with proper exports in package.json
+
+**IMPORTANT: Component Duplication**
+- The production app uses `CircularTestimonials` from `@v1/ui/circular-testimonials` (packages/ui)
+- There is a duplicate, unused version in `apps/app/src/components/ui/circular-testimonials.tsx`
+- Always modify the UI package version for production changes
+
+Key component features:
 - `CircularTestimonials` component is controlled (accepts currentIndex prop)
 - Navigation state managed at page level with autoplay functionality
 - Components use `@v1/ui/[component]` import paths
 - Student testimonial data embedded directly in page component
+- Long testimonials (>855 chars) have "View more/View less" functionality
 
 ## Code Style and Conventions
 
@@ -60,6 +69,8 @@ Follow the established patterns from `.cursorrules`:
 - Structure: exported component, subcomponents, helpers, static content, types
 - Use early returns and guard clauses for error handling
 - Mobile-first responsive design with Tailwind CSS
+- Use Zod for form validation
+- Model expected errors as return values in Server Actions
 
 ## Package Management
 - Project configured for Bun 1.1.26 but npm works for development
@@ -74,5 +85,7 @@ Always run `npm run lint` and `npm run typecheck` after making changes. Build wi
 - Responsive testimonials with 2-column desktop layout optimized for laptop viewing
 - Navigation controls separate from testimonial content to prevent layout shifts
 - Special handling for student "Nada" (no quotes around testimonial text)
-- Autoplay functionality with pause on hover
+- Autoplay functionality with pause on hover (5-second intervals)
 - Keyboard navigation support (arrow keys)
+- Background image with dark fallback color and overlay for consistent text readability
+- Fixed heights to prevent layout jumping between testimonials
