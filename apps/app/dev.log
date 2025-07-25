@@ -1,0 +1,675 @@
+
+> @v1/app@0.1.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.7
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1224ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.3s (1226 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 2439ms
+ GET /_next/static/webpack/6a529c36968c48d4.webpack.hot-update.json 404 in 2452ms
+ GET / 200 in 14ms
+ GET /images/students/sarah-chen.jpg 404 in 47ms
+ ⨯ The requested resource isn't a valid image for /images/students/sarah-chen.jpg received text/html; charset=utf-8
+ GET /images/students/michael-thompson.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/michael-thompson.jpg received text/html; charset=utf-8
+ GET / 200 in 19ms
+ GET /images/students/sarah-chen.jpg 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/students/sarah-chen.jpg received text/html; charset=utf-8
+ GET /images/students/michael-thompson.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/michael-thompson.jpg received text/html; charset=utf-8
+ GET /images/students/aisha-patel.jpg 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/students/aisha-patel.jpg received text/html; charset=utf-8
+ GET /images/students/carlos-rodriguez.jpg 404 in 18ms
+ ⨯ The requested resource isn't a valid image for /images/students/carlos-rodriguez.jpg received text/html; charset=utf-8
+ GET /images/students/emma-wilson.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/emma-wilson.jpg received text/html; charset=utf-8
+ GET /images/students/david-kim.jpg 404 in 15ms
+ ⨯ The requested resource isn't a valid image for /images/students/david-kim.jpg received text/html; charset=utf-8
+ GET /images/students/sophie-leblanc.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/sophie-leblanc.jpg received text/html; charset=utf-8
+ GET /images/students/james-mitchell.jpg 404 in 15ms
+ ⨯ The requested resource isn't a valid image for /images/students/james-mitchell.jpg received text/html; charset=utf-8
+ GET /images/students/maya-singh.jpg 404 in 15ms
+ ⨯ The requested resource isn't a valid image for /images/students/maya-singh.jpg received text/html; charset=utf-8
+ GET /images/students/alex-johnson.jpg 404 in 18ms
+ ⨯ The requested resource isn't a valid image for /images/students/alex-johnson.jpg received text/html; charset=utf-8
+ GET /images/students/rachel-green.jpg 404 in 15ms
+ ⨯ The requested resource isn't a valid image for /images/students/rachel-green.jpg received text/html; charset=utf-8
+ GET /images/students/aisha-patel.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/aisha-patel.jpg received text/html; charset=utf-8
+ GET /images/students/thomas-brown.jpg 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/students/thomas-brown.jpg received text/html; charset=utf-8
+ GET /images/students/michael-thompson.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/michael-thompson.jpg received text/html; charset=utf-8
+ GET /images/students/alex-johnson.jpg 404 in 14ms
+ ⨯ The requested resource isn't a valid image for /images/students/alex-johnson.jpg received text/html; charset=utf-8
+ GET /images/students/rachel-green.jpg 404 in 18ms
+ ⨯ The requested resource isn't a valid image for /images/students/rachel-green.jpg received text/html; charset=utf-8
+ GET /images/students/thomas-brown.jpg 404 in 12ms
+ ⨯ The requested resource isn't a valid image for /images/students/thomas-brown.jpg received text/html; charset=utf-8
+ GET /images/students/fatima-al-hassan.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/fatima-al-hassan.jpg received text/html; charset=utf-8
+ GET /images/students/nathan-white.jpg 404 in 12ms
+ ⨯ The requested resource isn't a valid image for /images/students/nathan-white.jpg received text/html; charset=utf-8
+ GET /images/students/lisa-thunderbird.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/lisa-thunderbird.jpg received text/html; charset=utf-8
+ GET /images/students/robert-chang.jpg 404 in 14ms
+ ⨯ The requested resource isn't a valid image for /images/students/robert-chang.jpg received text/html; charset=utf-8
+ GET /images/students/sarah-chen.jpg 404 in 15ms
+ ⨯ The requested resource isn't a valid image for /images/students/sarah-chen.jpg received text/html; charset=utf-8
+ GET /images/students/michael-thompson.jpg 404 in 11ms
+ ⨯ The requested resource isn't a valid image for /images/students/michael-thompson.jpg received text/html; charset=utf-8
+ GET /images/students/aisha-patel.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/aisha-patel.jpg received text/html; charset=utf-8
+ GET /images/students/carlos-rodriguez.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/carlos-rodriguez.jpg received text/html; charset=utf-8
+ GET /images/students/emma-wilson.jpg 404 in 15ms
+ ⨯ The requested resource isn't a valid image for /images/students/emma-wilson.jpg received text/html; charset=utf-8
+ GET /images/students/david-kim.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/david-kim.jpg received text/html; charset=utf-8
+ GET /images/students/sophie-leblanc.jpg 404 in 11ms
+ ⨯ The requested resource isn't a valid image for /images/students/sophie-leblanc.jpg received text/html; charset=utf-8
+ GET /images/students/james-mitchell.jpg 404 in 10ms
+ ⨯ The requested resource isn't a valid image for /images/students/james-mitchell.jpg received text/html; charset=utf-8
+ GET /images/students/maya-singh.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/maya-singh.jpg received text/html; charset=utf-8
+ GET /images/students/alex-johnson.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/alex-johnson.jpg received text/html; charset=utf-8
+ GET /images/students/rachel-green.jpg 404 in 15ms
+ ⨯ The requested resource isn't a valid image for /images/students/rachel-green.jpg received text/html; charset=utf-8
+ GET /images/students/thomas-brown.jpg 404 in 14ms
+ ⨯ The requested resource isn't a valid image for /images/students/thomas-brown.jpg received text/html; charset=utf-8
+ GET /images/students/fatima-al-hassan.jpg 404 in 12ms
+ ⨯ The requested resource isn't a valid image for /images/students/fatima-al-hassan.jpg received text/html; charset=utf-8
+ ✓ Compiled in 319ms (1226 modules)
+ ✓ Compiled in 132ms (1223 modules)
+ ✓ Compiled in 174ms (1223 modules)
+ ✓ Compiled /_not-found in 63ms (1212 modules)
+ GET /images/students/fengxiao-aki.jpg 404 in 100ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ ✓ Compiled in 231ms (1223 modules)
+ ✓ Compiled /_not-found in 234ms (1212 modules)
+ GET /images/students/justin.jpg 404 in 292ms
+ ⨯ The requested resource isn't a valid image for /images/students/justin.jpg received text/html; charset=utf-8
+ GET /images/students/nada.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/nada.jpg received text/html; charset=utf-8
+ GET /images/students/leah-wells.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/leah-wells.jpg received text/html; charset=utf-8
+ GET /images/students/jorray.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/jorray.jpg received text/html; charset=utf-8
+ GET /images/students/layan.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/layan.jpg received text/html; charset=utf-8
+ GET /images/students/angelika.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/angelika.jpg received text/html; charset=utf-8
+ GET /images/students/kadence-fawn-alyssa.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/kadence-fawn-alyssa.jpg received text/html; charset=utf-8
+ GET /images/students/olivia.jpg 404 in 15ms
+ ⨯ The requested resource isn't a valid image for /images/students/olivia.jpg received text/html; charset=utf-8
+ GET /images/students/fengxiao-aki.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/gilbert.jpg 404 in 14ms
+ ⨯ The requested resource isn't a valid image for /images/students/gilbert.jpg received text/html; charset=utf-8
+ GET /images/students/neha.jpg 404 in 11ms
+ ⨯ The requested resource isn't a valid image for /images/students/neha.jpg received text/html; charset=utf-8
+ GET /images/students/azure.jpg 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/students/azure.jpg received text/html; charset=utf-8
+ GET /images/students/rishi.jpg 404 in 10ms
+ ⨯ The requested resource isn't a valid image for /images/students/rishi.jpg received text/html; charset=utf-8
+ GET /images/students/gilbert.jpg 404 in 18ms
+ ⨯ The requested resource isn't a valid image for /images/students/gilbert.jpg received text/html; charset=utf-8
+ GET /images/students/fengxiao-aki.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/olivia.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/olivia.jpg received text/html; charset=utf-8
+ GET /images/students/fengxiao-aki.jpg 404 in 12ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/gilbert.jpg 404 in 14ms
+ ⨯ The requested resource isn't a valid image for /images/students/gilbert.jpg received text/html; charset=utf-8
+ ✓ Compiled in 238ms (1226 modules)
+ ✓ Compiled in 150ms (1226 modules)
+ GET /images/students/leah-wells.jpg 404 in 51ms
+ ⨯ The requested resource isn't a valid image for /images/students/leah-wells.jpg received text/html; charset=utf-8
+ GET /images/students/justin.jpg 404 in 23ms
+ ⨯ The requested resource isn't a valid image for /images/students/justin.jpg received text/html; charset=utf-8
+ GET /images/students/nada.jpg 404 in 22ms
+ ⨯ The requested resource isn't a valid image for /images/students/nada.jpg received text/html; charset=utf-8
+ ✓ Compiled in 275ms (1223 modules)
+ ✓ Compiled /_not-found in 135ms (1212 modules)
+ GET /images/students/angelika.jpg 404 in 185ms
+ ⨯ The requested resource isn't a valid image for /images/students/angelika.jpg received text/html; charset=utf-8
+ GET /images/students/layan.jpg 404 in 13ms
+ ⨯ The requested resource isn't a valid image for /images/students/layan.jpg received text/html; charset=utf-8
+ GET /images/students/angelika.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/angelika.jpg received text/html; charset=utf-8
+ GET /images/students/kadence-fawn-alyssa.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/kadence-fawn-alyssa.jpg received text/html; charset=utf-8
+ GET /images/students/olivia.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/olivia.jpg received text/html; charset=utf-8
+ GET /images/students/fengxiao-aki.jpg 404 in 18ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/gilbert.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/gilbert.jpg received text/html; charset=utf-8
+ GET /images/students/neha.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/neha.jpg received text/html; charset=utf-8
+ GET /images/students/azure.jpg 404 in 24ms
+ ⨯ The requested resource isn't a valid image for /images/students/azure.jpg received text/html; charset=utf-8
+ GET /images/students/justin.jpg 404 in 22ms
+ ⨯ The requested resource isn't a valid image for /images/students/justin.jpg received text/html; charset=utf-8
+ GET /images/students/nada.jpg 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/students/nada.jpg received text/html; charset=utf-8
+ GET /images/students/leah.jpg 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/students/leah.jpg received text/html; charset=utf-8
+ GET /images/students/jorray.jpg 404 in 24ms
+ ⨯ The requested resource isn't a valid image for /images/students/jorray.jpg received text/html; charset=utf-8
+ GET /images/students/layan.jpg 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/students/layan.jpg received text/html; charset=utf-8
+ GET /images/students/leah.jpg 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/students/leah.jpg received text/html; charset=utf-8
+ GET /images/students/nada.jpg 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/students/nada.jpg received text/html; charset=utf-8
+ GET /images/students/leah.jpg 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/students/leah.jpg received text/html; charset=utf-8
+ GET /images/students/jorray.jpg 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/students/jorray.jpg received text/html; charset=utf-8
+ GET /images/students/layan.jpg 404 in 18ms
+ ⨯ The requested resource isn't a valid image for /images/students/layan.jpg received text/html; charset=utf-8
+ ✓ Compiled in 274ms (1226 modules)
+ GET /images/students/fengxiao-aki.jpg 404 in 62ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/justin.jpg 404 in 28ms
+ ⨯ The requested resource isn't a valid image for /images/students/justin.jpg received text/html; charset=utf-8
+ GET /images/students/nada.jpg 404 in 23ms
+ ⨯ The requested resource isn't a valid image for /images/students/nada.jpg received text/html; charset=utf-8
+ GET /images/students/leah.jpg 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/students/leah.jpg received text/html; charset=utf-8
+ GET /images/students/jorray.jpg 404 in 15ms
+ ⨯ The requested resource isn't a valid image for /images/students/jorray.jpg received text/html; charset=utf-8
+ ✓ Compiled in 292ms (1226 modules)
+ GET /images/students/kadence-fawn-alyssa.jpg 404 in 32ms
+ ⨯ The requested resource isn't a valid image for /images/students/kadence-fawn-alyssa.jpg received text/html; charset=utf-8
+ ✓ Compiled in 163ms (1226 modules)
+ GET /images/students/fengxiao-aki.jpg 404 in 25ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ ✓ Compiled in 354ms (1226 modules)
+ ✓ Compiled in 145ms (1223 modules)
+ ✓ Compiled in 167ms (1223 modules)
+ ✓ Compiled in 111ms (1223 modules)
+ ✓ Compiled /_not-found in 102ms (1212 modules)
+ GET /images/students/neha.jpg 404 in 158ms
+ ⨯ The requested resource isn't a valid image for /images/students/neha.jpg received text/html; charset=utf-8
+ GET /images/students/azure.jpg 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/students/azure.jpg received text/html; charset=utf-8
+ GET /images/students/rishi.jpg 404 in 24ms
+ ⨯ The requested resource isn't a valid image for /images/students/rishi.jpg received text/html; charset=utf-8
+ GET /images/students/taryn.jpg 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/students/taryn.jpg received text/html; charset=utf-8
+ GET /images/students/irene-yunxuan.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/irene-yunxuan.jpg received text/html; charset=utf-8
+ GET /images/students/temitope-favour.jpg 404 in 24ms
+ ⨯ The requested resource isn't a valid image for /images/students/temitope-favour.jpg received text/html; charset=utf-8
+ GET /images/students/justin.jpg 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/students/justin.jpg received text/html; charset=utf-8
+ GET /images/students/nada.jpg 404 in 22ms
+ ⨯ The requested resource isn't a valid image for /images/students/nada.jpg received text/html; charset=utf-8
+ GET /images/students/leah.jpg 404 in 25ms
+ ⨯ The requested resource isn't a valid image for /images/students/leah.jpg received text/html; charset=utf-8
+ GET /images/students/jorray.jpg 404 in 22ms
+ ⨯ The requested resource isn't a valid image for /images/students/jorray.jpg received text/html; charset=utf-8
+ GET /images/students/layan.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/layan.jpg received text/html; charset=utf-8
+ GET /images/students/angelika.jpg 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/students/angelika.jpg received text/html; charset=utf-8
+ GET /images/students/kadence-fawn-alyssa.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/kadence-fawn-alyssa.jpg received text/html; charset=utf-8
+ GET /images/students/olivia.jpg 404 in 22ms
+ ⨯ The requested resource isn't a valid image for /images/students/olivia.jpg received text/html; charset=utf-8
+ GET /images/students/fengxiao-aki.jpg 404 in 18ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/gilbert.jpg 404 in 16ms
+ ⨯ The requested resource isn't a valid image for /images/students/gilbert.jpg received text/html; charset=utf-8
+ GET /images/students/neha.jpg 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/students/neha.jpg received text/html; charset=utf-8
+ GET /images/students/justin.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/justin.jpg received text/html; charset=utf-8
+ GET /images/students/olivia.jpg 404 in 28ms
+ ⨯ The requested resource isn't a valid image for /images/students/olivia.jpg received text/html; charset=utf-8
+ GET /images/students/fengxiao-aki.jpg 404 in 23ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/gilbert.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/gilbert.jpg received text/html; charset=utf-8
+ ✓ Compiled in 538ms (1226 modules)
+ ✓ Compiled in 203ms (1226 modules)
+ GET /images/students/fengxiao-aki.jpg 404 in 41ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/taryn.jpg 404 in 34ms
+ ⨯ The requested resource isn't a valid image for /images/students/taryn.jpg received text/html; charset=utf-8
+ GET /images/students/irene-yunxuan.jpg 404 in 26ms
+ ⨯ The requested resource isn't a valid image for /images/students/irene-yunxuan.jpg received text/html; charset=utf-8
+ GET /images/students/temitope-favour.jpg 404 in 14ms
+ ⨯ The requested resource isn't a valid image for /images/students/temitope-favour.jpg received text/html; charset=utf-8
+ ✓ Compiled in 280ms (1223 modules)
+ ⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+  ▲ Next.js 14.2.7
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1253ms
+ ⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+  ▲ Next.js 14.2.7
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 905ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.1s (1223 modules)
+ GET / 200 in 2289ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1110ms (1226 modules)
+ GET /images/students/fengxiao-aki.jpg 404 in 1158ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/olivia.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/olivia.jpg received text/html; charset=utf-8
+ GET /images/students/kadence-fawn-alyssa.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/kadence-fawn-alyssa.jpg received text/html; charset=utf-8
+ GET /images/students/angelika.jpg 404 in 18ms
+ ⨯ The requested resource isn't a valid image for /images/students/angelika.jpg received text/html; charset=utf-8
+ GET /images/students/layan.jpg 404 in 22ms
+ ⨯ The requested resource isn't a valid image for /images/students/layan.jpg received text/html; charset=utf-8
+ GET /images/students/jorray.jpg 404 in 22ms
+ ⨯ The requested resource isn't a valid image for /images/students/jorray.jpg received text/html; charset=utf-8
+ GET /images/students/leah.jpg 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/students/leah.jpg received text/html; charset=utf-8
+ GET /images/students/nada.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/nada.jpg received text/html; charset=utf-8
+ GET /images/students/justin.jpg 404 in 19ms
+ ⨯ The requested resource isn't a valid image for /images/students/justin.jpg received text/html; charset=utf-8
+ GET /images/students/justin.jpg 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/students/justin.jpg received text/html; charset=utf-8
+ GET /images/students/olivia.jpg 404 in 35ms
+ ⨯ The requested resource isn't a valid image for /images/students/olivia.jpg received text/html; charset=utf-8
+ GET /images/students/fengxiao-aki.jpg 404 in 11ms
+ ⨯ The requested resource isn't a valid image for /images/students/fengxiao-aki.jpg received text/html; charset=utf-8
+ GET /images/students/gilbert.jpg 404 in 9ms
+ ⨯ The requested resource isn't a valid image for /images/students/gilbert.jpg received text/html; charset=utf-8
+ ✓ Compiled in 327ms (1226 modules)
+ GET /images/students/rishi.jpg 404 in 42ms
+ ⨯ The requested resource isn't a valid image for /images/students/rishi.jpg received text/html; charset=utf-8
+ GET /images/students/rishi.jpg 404 in 9ms
+ ⨯ The requested resource isn't a valid image for /images/students/rishi.jpg received text/html; charset=utf-8
+ GET /images/students/taryn.jpg 404 in 13ms
+ ⨯ The requested resource isn't a valid image for /images/students/taryn.jpg received text/html; charset=utf-8
+ ✓ Compiled in 134ms (1226 modules)
+ ✓ Compiled in 163ms (1226 modules)
+ ✓ Compiled in 193ms (1223 modules)
+ ✓ Compiled in 281ms (1223 modules)
+ ⨯ ./src/components/ui/circular-testimonials.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/src/components/ui/circular-testimonials.tsx[0m:71:1]
+ [2m71[0m |   };
+ [2m72[0m | 
+ [2m73[0m |   return (
+ [2m74[0m |     <div
+    : [31;1m     ^^^[0m
+ [2m75[0m |       className="relative flex flex-col items-center justify-center min-h-[600px] w-full overflow-hidden py-12"
+ [2m76[0m |       onMouseEnter={() => setIsHovered(true)}
+ [2m77[0m |       onMouseLeave={() => setIsHovered(false)}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/ui/circular-testimonials.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/ui/circular-testimonials.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/src/components/ui/circular-testimonials.tsx[0m:71:1]
+ [2m71[0m |   };
+ [2m72[0m | 
+ [2m73[0m |   return (
+ [2m74[0m |     <div
+    : [31;1m     ^^^[0m
+ [2m75[0m |       className="relative flex flex-col items-center justify-center min-h-[600px] w-full overflow-hidden py-12"
+ [2m76[0m |       onMouseEnter={() => setIsHovered(true)}
+ [2m77[0m |       onMouseLeave={() => setIsHovered(false)}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/ui/circular-testimonials.tsx
+./src/app/page.tsx
+ ○ Compiling /_error ...
+ GET / 500 in 3ms
+ ✓ Compiled /_not-found in 639ms (1438 modules)
+ GET /_next/static/webpack/603923f2d8f5b64f.webpack.hot-update.json 404 in 798ms
+ GET / 200 in 155ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 306ms (1449 modules)
+ ✓ Compiled in 350ms (1449 modules)
+ ✓ Compiled in 558ms (1450 modules)
+ GET / 200 in 101ms
+ ✓ Compiled in 248ms (1450 modules)
+ ✓ Compiled /_not-found in 112ms (1439 modules)
+ GET /_next/static/css/app/layout.css?v=1753455792953 404 in 164ms
+ ✓ Compiled in 146ms (1453 modules)
+ GET /_next/static/css/app/layout.css?v=1753455801922 404 in 35ms
+ ✓ Compiled in 106ms (1439 modules)
+ ✓ Compiled in 73ms (806 modules)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ GET /_next/static/css/app/layout.css 500 in 18ms
+ ✓ Compiled in 77ms (806 modules)
+ ✓ Compiled in 70ms (806 modules)
+ ✓ Compiled in 74ms (806 modules)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 51ms
+ GET /_next/static/chunks/webpack.js 404 in 45ms
+ GET /_next/static/chunks/main.js 404 in 45ms
+ GET /_next/static/chunks/react-refresh.js 404 in 46ms
+ GET /_next/static/chunks/pages/_app.js 404 in 20ms
+ GET /_next/static/development/_buildManifest.js 404 in 19ms
+ GET /_next/static/chunks/pages/_error.js 404 in 19ms
+ GET /_next/static/development/_ssgManifest.js 404 in 9ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 32ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 19ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 24ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 22ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 21ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 20ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 24ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 22ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 20ms
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at JSON.parse (<anonymous>)
+digest: "395255798"
+TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582)
+ ⨯ TypeError: e[o] is not a function
+    at Object.t [as require] (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/apps/app/.next/server/webpack-runtime.js:1:127)
+    at require (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:16:18490)
+    at I (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94362)
+    at /Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:96668
+    at F._fromJSON (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:97106)
+    at JSON.parse (<anonymous>)
+    at O (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94083)
+    at t (/Users/damianmatheson/Desktop/ClaudeCode/ScotiaWinnersLP/v1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:100582) {
+  page: '/'
+}
+ GET / 500 in 20ms
+[?25h
