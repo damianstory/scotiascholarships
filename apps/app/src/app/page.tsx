@@ -156,7 +156,7 @@ export default function HomePage() {
     <main 
       className="min-h-screen bg-cover bg-center bg-fixed bg-[#0f172a]" 
       style={{ 
-        backgroundImage: 'url(https://i.imgur.com/f5R4g2h.jpeg)',
+        backgroundImage: 'url(https://i.imgur.com/4uJI3la.jpeg)',
       }}
       onKeyDown={handleKeyDown}
       tabIndex={-1}
