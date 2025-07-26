@@ -132,6 +132,7 @@ export default function CircularTestimonials({
                 </blockquote>
               )}
             </div>
+            <br />
             <div className="mt-16">
               <h3
                 className="text-xl md:text-2xl font-bold mb-2"
