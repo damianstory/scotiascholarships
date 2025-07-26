@@ -5,9 +5,9 @@ export const metadata: Metadata = {
   title: "myBlueprint x Scotiabank 2025 Scholarships",
   description: "Celebrating 16 Outstanding Students",
   icons: {
-    icon: "https://i.imgur.com/5LyeXPx.png",
-    shortcut: "https://i.imgur.com/5LyeXPx.png",
-    apple: "https://i.imgur.com/5LyeXPx.png",
+    icon: "/images/favicon.png",
+    shortcut: "/images/favicon.png",
+    apple: "/images/favicon.png",
   },
 };
 
