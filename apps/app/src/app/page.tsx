@@ -7,7 +7,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const recipients: Testimonial[] = [
   {
-    quote: "In 2025, Scotiabank partnered with myBlueprint to award $60,000 in scholarships to 16 deserving Canadian students. These scholarships—each worth $3,750—support students pursuing post-secondary education across four key themes: STEM, Financial Wellness, Future Women Leaders, and Diversity. Meet the inspiring recipients whose dreams you're helping make possible. Their stories showcase the impact we can have when we invest in the next generation of Canadian leaders.",
+    quote: "In 2025, Scotiabank partnered with myBlueprint to award $60,000 in scholarships to 16 deserving Canadian students. These scholarships—each worth $3,750—support students pursuing post-secondary education across four key themes: STEM, Financial Wellness, Future Women Leaders, and Diversity.\n\nMeet the inspiring recipients whose dreams you're helping make possible. Their stories showcase the impact we can have when we invest in the next generation of Canadian leaders.",
     name: "Scotiabank Scholarships",
     designation: "Making dreams possible, with myBlueprint",
     theme: "For Every Future",

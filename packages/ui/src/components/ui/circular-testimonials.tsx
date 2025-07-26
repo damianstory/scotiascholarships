@@ -114,13 +114,21 @@ export default function CircularTestimonials({
           </div>
           <div className="flex flex-col text-center md:text-left flex-1">
             <div className="min-h-[280px] md:min-h-[320px] lg:min-h-[360px] flex flex-col justify-center">
-              {testimonials[currentIndex].name === "Nada" || testimonials[currentIndex].name === "Scotiabank Scholarships" ? (
+              {testimonials[currentIndex].name === "Nada" ? (
                 <p
                   className="text-sm md:text-base lg:text-lg leading-relaxed"
                   style={{ color: colors.testimony }}
                 >
                   {highlightScotiabank(displayQuote)}
                 </p>
+              ) : testimonials[currentIndex].name === "Scotiabank Scholarships" ? (
+                <div className="text-sm md:text-base lg:text-lg leading-relaxed" style={{ color: colors.testimony }}>
+                  {displayQuote.split('\n\n').map((paragraph, index) => (
+                    <p key={index} className={index > 0 ? 'mt-8' : ''}>
+                      {highlightScotiabank(paragraph)}
+                    </p>
+                  ))}
+                </div>
               ) : (
                 <blockquote
                   className="text-sm md:text-base lg:text-lg leading-relaxed"
