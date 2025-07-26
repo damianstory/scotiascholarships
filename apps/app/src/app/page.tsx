@@ -7,6 +7,13 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const recipients: Testimonial[] = [
   {
+    quote: "In 2025, Scotiabank partnered with myBlueprint to award $60,000 in scholarships to 16 deserving Canadian students. These scholarships—each worth $3,750—support students pursuing post-secondary education across four key themes: STEM, Financial Wellness, Future Women Leaders, and Diversity. Meet the inspiring recipients whose dreams you're helping make possible. Their stories showcase the impact we can have when we invest in the next generation of Canadian leaders.",
+    name: "Scotiabank Scholarships",
+    designation: "Making dreams possible, with myBlueprint",
+    theme: "For Every Future",
+    src: "/images/scotiabank-logo.png"
+  },
+  {
     quote: "Receiving the Scotiabank myBlueprint STEM Scholarship is both an honour and a stepping stone for my post-secondary endeavours. More than just funding, this scholarship affirms my passion for STEM and recognizes the hard work I've put into robotics projects, hackathons, and community leadership. It also connects me to a wider network of students and professionals who are equally driven to make a difference, which opens up opportunities to learn from mentors and collaborate with like-minded individuals. This recognition strengthens my confidence and motivates me to keep exploring, and creating. Long-term, I aspire to become a robotics engineer, focused on using technology to solve real-world problems, especially in education and healthcare. This award is a reminder that my goals are within reach and that I have support along the way. I'm truly grateful for this opportunity and excited for what's to come.",
     name: "Rishi",
     designation: "Western University",

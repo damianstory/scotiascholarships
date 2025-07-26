@@ -90,20 +90,31 @@ export default function CircularTestimonials({
           className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 px-4 max-w-6xl mx-auto"
         >
           <div className="flex-shrink-0">
-            <div className="relative w-48 h-48 md:w-72 md:h-72 lg:w-80 lg:h-80">
+            <div className={`relative ${
+              testimonials[currentIndex].name === "Scotiabank Scholarships" 
+                ? "w-36 h-36 md:w-52 md:h-52 lg:w-60 lg:h-60 bg-white" 
+                : "w-48 h-48 md:w-72 md:h-72 lg:w-80 lg:h-80"
+            } rounded-full`}>
               <Image
                 src={testimonials[currentIndex].src}
                 alt={`Portrait of ${testimonials[currentIndex].name}`}
                 fill
-                className="rounded-full object-cover"
-                sizes="(max-width: 768px) 192px, (max-width: 1024px) 288px, 320px"
+                className={`rounded-full ${
+                  testimonials[currentIndex].name === "Scotiabank Scholarships" 
+                    ? "object-contain p-4" 
+                    : "object-cover"
+                }`}
+                sizes={testimonials[currentIndex].name === "Scotiabank Scholarships" 
+                  ? "(max-width: 768px) 144px, (max-width: 1024px) 208px, 240px"
+                  : "(max-width: 768px) 192px, (max-width: 1024px) 288px, 320px"
+                }
                 priority
               />
             </div>
           </div>
           <div className="flex flex-col text-center md:text-left flex-1">
             <div className="min-h-[280px] md:min-h-[320px] lg:min-h-[360px] flex flex-col justify-center">
-              {testimonials[currentIndex].name === "Nada" ? (
+              {testimonials[currentIndex].name === "Nada" || testimonials[currentIndex].name === "Scotiabank Scholarships" ? (
                 <p
                   className="text-sm md:text-base lg:text-lg leading-relaxed"
                   style={{ color: colors.testimony }}
@@ -134,24 +145,28 @@ export default function CircularTestimonials({
             </div>
             <br />
             <div className="mt-16">
-              <h3
-                className="text-xl md:text-2xl font-bold mb-2"
-                style={{ color: colors.name }}
-              >
-                {testimonials[currentIndex].name}
-              </h3>
-              <p
-                className="text-lg md:text-xl"
-                style={{ color: colors.designation }}
-              >
-                Headed to: {testimonials[currentIndex].designation}
-              </p>
+              {testimonials[currentIndex].name !== "Scotiabank Scholarships" && (
+                <>
+                  <h3
+                    className="text-xl md:text-2xl font-bold mb-2"
+                    style={{ color: colors.name }}
+                  >
+                    {testimonials[currentIndex].name}
+                  </h3>
+                  <p
+                    className="text-lg md:text-xl"
+                    style={{ color: colors.designation }}
+                  >
+                    {testimonials[currentIndex].designation}
+                  </p>
+                </>
+              )}
               {testimonials[currentIndex].theme && (
                 <p
                   className="text-base md:text-lg mt-2 font-bold"
                   style={{ color: colors.arrowBackground }}
                 >
-                  Scholarship Theme: {testimonials[currentIndex].theme}
+                  {testimonials[currentIndex].theme}
                 </p>
               )}
             </div>
